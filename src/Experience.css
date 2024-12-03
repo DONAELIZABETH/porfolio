@@ -1,0 +1,57 @@
+/* Main container to align the boxes in the desired layout */
+.experience-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 20px;
+  }
+  .exp-head4{
+    color:gray;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .exp-head1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    margin: 10px 0 30px;
+    margin-top:-30px;
+  }
+  
+  /* Styling for Full-Stack Development box (centered at the top) */
+  .exp-fsd-box {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: -20px; /* Slightly pulls Full-Stack Development box up */
+  }
+  
+  /* Wrapper for the bottom two boxes */
+  .exp-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    max-width: 800px;
+    margin-top: 40px;
+  }
+  
+  /* Styling for each of the side boxes (Front-End and Back-End) */
+  .exp-box {
+    flex: 1;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  

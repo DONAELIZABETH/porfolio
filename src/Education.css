@@ -1,0 +1,82 @@
+/* Container styling */
+.education {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+}
+
+/* Section headings */
+.education-heading4 {
+  color:gray;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.education-heading1 {
+  font-size: 36px;
+  font-weight: bold;
+  color: black;
+  text-align: center;
+  margin: 10px 0 30px;
+  margin-left:3px;
+}
+
+/* Education blocks styling */
+.eduction-btech,
+.education-12,
+.education-10 {
+  background-color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  border: 2px solid black;
+}
+
+
+.cse, .bi, .kbpe {
+  font-size: 20px;
+  color: #333;
+  margin: 5px 0;
+}
+
+.apj, .mlm, .dhse, .saha, .ptge, .smga {
+  font-size: 18px;
+  color: #666;
+  margin: 5px 0;
+}
+
+/* Extra-curricular activities */
+.education-extra {
+  padding: 20px;
+  background: color #f5f5f5;;
+  border-radius: 8px;
+  margin-top: 30px;
+  border: 2px solid black;
+}
+
+.education-extra h1 {
+  font-size: 28px;
+  font-weight: bold;
+  color:black;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.education-extra div {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.education-extra h3 {
+  font-size: 20px;
+  color: #333;
+}
+
+.education-extra h5 {
+  font-size: 18px;
+  color: #777;
+}

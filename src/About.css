@@ -1,0 +1,48 @@
+/* Container styling */
+.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color:#f5f5f5;
+    min-height: 100vh;
+    text-align: center;
+  }
+  
+  /* Heading styles */
+  .about-heading4 {
+    color:gray;
+    font-family: 'Courier New', Courier, monospace;
+  }
+  
+  .about-heading1 {
+    font-size: 36px;
+    font-weight: bold;
+    color:black;
+    margin-bottom: 10px;
+  }
+  
+  /* Content styling */
+  .about-content {
+    display: flex;
+    align-items: center;
+    max-width: 800px;
+    gap: 30px;
+    text-align: left;
+  }
+  
+  .about-paragraph {
+    font-size: 18px;
+    line-height: 1.6;
+    color:black;
+    flex: 1;
+  }
+  
+  /* Image styling */
+  .about-img {
+    width:200px;
+    height: auto;
+    border-radius: 8px;
+    
+  }
+  
